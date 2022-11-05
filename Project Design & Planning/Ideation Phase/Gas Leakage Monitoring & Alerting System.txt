@@ -1,0 +1,186 @@
+Gas Leakage Monitoring and Alerting System
+
+
+
+TEAM MEMBERS : 
+
+1.	Suganesh L
+2.	Subbanadh C V
+3.	Vishaal G
+4.	Sandeep A
+
+
+Abstract:
+
+
+The Internet of Things (IoT) is an emerging technology in which social environments are connected through various sensors linked together. The sensors can communicate data with each other using an internet connection. Gas leaks can be dangerous, especially in confined spaces. In these cases, a security system with high leak detection capability is required. This is because the gas is volatile and there is a possibility of leakage which will be very prone to explosion or fire hazard. The early gas leak detection device is a very suitable solution for the early detection of LPG leakage to minimize the occurrence. For this reason, a buzzer is used. The buzzer gives an audible indication of a gas leak. After that, it even turns on the GSM modem, continues to send SMS messages to the mobile number specifically mentioned in the source code program to alert people of danger.
+ 
+Keywords
+
+
+Transfer learning, Pipelines, Turning, Reliability engineering, Message service, Safety, Internet of Things
+
+
+Controlled Indexing
+
+
+alarm systems, emergency services, gas sensors, heating, Internet of Things, leak detection, petroleum, safety systems, shapes (structures)
+
+
+Non-Controlled Indexing
+
+
+Prevention system, liquefied petroleum gas, automotive power, flammable gas, faulty gas pipings, reliable safety system, emergency alarm, gas detection module, sensor based smart automated gas leakage detection, heating process, LPG leaks, cooking process, IoT, Internet of Things, GDM, location detection module, LDM, notification module, NM, messaging service.
+
+
+Author Keywords
+
+Automation, IoT, Embedded system, Arduino UNO, LPG, Gas leakage, Breadboard, Gas Sensor , GSM Module, Notification Module, Buzzer.
+ 
+System Requirements:
+
+The system consists of Arduino, Buzzer, LCD & GSM module. GSM sends an SMS to specified mobile number in case of any gas leakage. The Arduino controls the messaging process as well as the measures to be taken for gas leakage.
+Hardware Requirements
+
+1)	Arduino UNO Microcontroller
+
+2)	16x2 LCD Display
+
+3)	12v dc power supply
+
+4)	5v Regulated CKT
+
+5)	Buzzer
+
+6)	LPG Gas sensor
+
+7)	GSM Module
+
+8)	GSM Sim
+
+9)	Connecting wires
+
+10)	Project base.
+
+Software Requirements
+
+1)	Arduino IDE
+
+2)	Language C++
+ 
+BLOCK DIAGRAM:
+
+
+
+
+
+
+
+
+
+
+ 
+Literature Survey
+
+A number of reviews have been done in the past on the topic of gas leak detection techniques, both in research papers/technical reports on a particular leak detection method and other gas-related topics.
+
+
+A.	Mahalingam, r. T. Naayagi, n. E. Mastorakis
+
+Designed a cost economic gas leakage detector. They adopted UK safety standards for the design of the system. Their proposed system mainly detects LPG leakage and also the amount of gas leakage. It mainly detects gases like propane and butane. The safety level of butane gas is 600 ppm above which it is considered hazardous.
+When the gas level in the air increases, the system produces audio alarms warning the people/workers in industry about the gas leakage.
+
+
+Prof. M.Amsaveni, A.Anurupa, R.S.Anu Preetha, C.Malarvizhi, M.Gunasekaran
+
+In this research paper on “GSM based LPG leak detection and control system”, LPG gas leak is detected by the MQ-6 gas sensor. The analog output is sent to the microcontroller.
+It Consists of predefined set of instructions. Based on the instructions specified, the exhaust fan gets turned on. The gas concentration in the room will thus be reduced. Then the stepper motor rotates, closing the cylinder knob. Then , the gas leak is stopped. The relay is de- energized. Then The buzzer sounds an alarm that signals a gas leak. The user is then notified by SMS via GSM module. They designed their methodology that the system takes automatic control action upon detection of 0.001% LPG leakage. This automatic control is provided by a mechanical handle to close the valve. They increase safety for humans with a relay that will turn off the electricity supply to the house. They also use GSM to send a warning message to users and a buzzer is available to alert neighbours of a leak.
+ 
+Falohun A.S., Oke A.O., and Abolaji B.M.
+
+In this paper they proposed gas detection using integrated circuit and MQ-9. In this they basically used a built-in design which includes typical input and output devices such as switches, relays, solenoids, LEDs, small or custom LCDs displays, radio frequency devices and sensors for data such as temperature, humidity, light level, etc.
+Embedded systems typically do not have a keyboard, screen, disks, printers, or other recognizable I/O devices personal computer and may lack human interaction facilities. Number and type of detectors and the type of fire alarm system one chooses for property protection will depend on the owner's property protection objectives, property value and the requirements of the owner's insurance company.
+
+
+Zhao Yang, Mingliang Liu, Min Shao, and Yingjie Ji
+
+
+
+In this document they told about the leak detection research and leak point analysis in the gas pipeline system. In this document they gave different models that used SCADA I/F Model: SCADA system has a transmission function acquired data from the pipeline system to the transient simulation model every 30 seconds. This module communicates with SCADA. Various parameters are collected every 30 seconds such as temperature , pressure and flow. Transient Simulation Model: Transient flow is simulated using a perfect numerical calculation method based on real data. Pressure and temperature serve as independent variables to get the average pressure and average temperature. Then all gas parameters in the pipe system can be obtained. Leak detection: Leak detection is done by comparing data obtained through the SCADA system with the Transient Simulation Model. This model could provide leak site assessment and rapid warning based on transient simulation and volume balance.
+ 
+B.	B. Did paye, Prof. S. K. Nanda
+
+
+
+In this paper they talked about their research in leak detection and review "Automated unified system for LPG using microcontroller and GSM module". Their paper is designed based on advanced and innovative approach to LPG leak detection, prevention and automation reservation for replenishment. The system ensures in advance the automatic control of the LPG regulator and possibly a leak is detected, the system will automatically turn off the main power switch. That's why it helps to avoid explosion.
+
+
+Hina Ruqsar , Chandana R , Nandini R , Dr. T P Surekha
+
+
+
+In this paper they designed a system that perform both the task that is gas leak monitoring and detection. For this real-time data is available through real-time transmission internet. They used the Xively IOT platform to provide real-time sensor data over the internet.
+
+
+Srinivasan, Leela, Jeya bharathi, Kirthik,Rajasree
+
+
+
+In this research they talked about a gas leak detection and control. In this article, the gas leakage leading to the fatal inferno became serious problem in households and other areas where domestic gas is handled and used. Notifies subscribers via alarm and status display in addition to shutting off the gas supply valve as a primary safety measures.
+Hitendra Rawat, Ashish Kushwah, Khyati Asthana, Akanksha Shivhare
+
+In this paper, they gave security problems against hooligans, spills and fire. In these cases, their framework sends an SMS to the emergency number assigned to it.
+ 
+Ch. Manohar Raju and N. Sushma Rani
+
+
+
+In this paper, they introduce an android based automatic gas detection and indication robot. Their proposed prototype depicts a mini mobile robot which is capable to detect gas leakage in hazardous places. Whenever there is a gas leakage, the robot immediately identifies it and sends the data to android mobile through wireless communication like Bluetooth. They developed an android application for android based smartphones which can receive data from robot directly through Bluetooth. The application signals an indication whenever there is a gas leakage and they can also control the robot movements via Bluetooth by text as well as voice commands. The previous mobile robots are based on heterogeneous technologies like GPS, GSM & internet based etc., but the main disadvantage of those prototypes were the lack of communication in specific areas. So, with the rapid developments and tremendous changes in technology. They have implemented some of the techniques to remove such previous problems. Wireless communication protocols play a vital role in present trends. Bluetooth, WI-Fi, Zigbee etc., They use one of the best features of smartphone, i.e., the Bluetooth technology to control and monitor the robot.
+They present a robot and a mobile application for Meanwhile; the system prototype impressively proved its use and capabilities in an intensive series of tests. Power unit, navigation system and therefore, the additional sensor systems performed excellently during the tests. Robot facilitates independent gas detection and leak localization in places that are otherwise problematic access. Additionally, it helps avoid mishandling human inspectors in a potentially dangerous situation environment. However, more development (e.g blast protection, package development, etc.) and in fact leg issues should be dealt with earlier preparation in a business environment. Nevertheless, it is certain that autonomous, mobile gas detection and leakage a locator robot is possible today and can significantly increase security.
+ 
+P.Meenakshi Vidya, S.Abinaya, G.Geetha Rajeswari, N.Guna
+
+
+
+This Paper “Automatic detection of LPG and hazards controlling” published in April 2014 proposed a real-time gas leak detection and monitoring system. In this system, gas leakage is detected and controlled by an exhaust fan. LPG level in the cylinder is also continuously monitored.
+
+
+FUTURE SCOPE:
+
+1)	A Mobile Application can be created for this system which can give information about the concentration of gas present in the area, setting reminders to check gas level and detect any gas leakage.
+
+2)	Relay motors can be added into the system to provide more safety. These motors can switch off the Main Gas Supply and Main Power supply in case the gas concentration exceeds certain limit.
+
+
+3)	The present gas spillage recognition framework can be additionally improved. For modern purposes, versatile robot can be produced for recognizing numerous gas fixations.
+ 
+
+
+
+CONCLUSION:
+
+The Internet of Things is the new revolution of the Internet and is a key research topic for researchers embedded, computer science and information technology due to its very diverse field of application and a heterogeneous mix of different communications and embedded technologies in its architecture.
+In the modern scenario, the use of LPG has increased on a larger scale. As a result, damages caused by gas leakage is increasing day by day. To eradicate these problems, They introduced highly advanced system known as Internet Of Things (IOT). It is used in a wide variety of applications in present society and introducing a huge scale into the future. Our proposed system is more efficient and environmentally friendly due to gas leak detection and gas valve control. That's the main thing designed for the safety of people and property. It also allows us to reserve gas from gas using IOT agency, when the weight of the gas cylinder is reduced below the threshold value. People could easily do so use your time effectively. It is also used to alert consumers to the waste of gas during disposal dishes from the burner using the object detection sensor.
+
+
+REFERENCES:
+
+1.	Shital Imade, Priyanka Rajmanes, Aishwarya Gavali , Prof. V. N. Nayakwadi “GAS LEAKAGE DETECTION	AND	SMART	ALERTING	SYSTEM	USING	IOT” https://www.pramanaresearch.org/gallery/22.%20feb%20ijirs%20-%20d539.pdf
+2.	Kumar Keshamoni and Sabbani Hemanth. "Smart Gas Level Monitoring, Booking & Gas Leakage Detector over IoT " International Advance Computing Conference IEEE, 2017.
+ 
+3.	Petros Spachos , Liang Song and Dimitrios Hatzinakos. "Gas Leak Detection and Localization System Through Wireless Sensor Networks" The 11th Annual IEEE Consumer Communications and Networking Conference - Demos. IEEE, 2014.
+4.	“Design and Implementation of an Economic Gas Leakage Detector” National Institute of Health (2004).
+
+What	you	need	to	know	about	natural	gas	detectors. Available:http://www.nidcd.nih.gov/health/smelltaste/gas dtctr.asp.
+5.	Prof.M.Amsaveni, A.Anurupa, R.S.Anu Preetha, C.Malarvizhi,M.Gunasekaran “Gsm based LPG leakage detection and controlling system” the International Journal of Engineering and Science (IJES) ISSN (e): 2319
+– 1813 ISSN (p):2319 – 1805 Pages 112-116 March- 2015
+
+6.	Srinivasan,Leela,Jeyabharathi,Kirthika,Rajasree“GAS	LEAKAGE	DETECTION	AND	CONTROL” Scientific Journal of Impact Factor(SJIF): 3.134
+7.	Pal-Stefan Murvaya, IoanSileaa “A survey on gas leak detection and localization techniques”
+
+8.	Ch. Manohar Raju, N. Sushma Rani, “An android based automatic gas detection and indication robot. In International Journal of Computer Engineering and Applications. 2014;8(1).
+9.	Falohun A.S., Oke A.O., Abolaji B.M. “Dangerous Gas Detection using an Integrated Circuit and MQ-9” in International Journal of Computer Applications (0975 –8887) Volume 135 – No.7, February 2016.
+10.	Ashish Shrivastava,Ratnesh Prabhaker, Rajeev Kumar and Rahul Verma “GSM BASED GAS LEAKAGE DETECTION SYSTEM” in International Journal of Technical Research and Applications e-ISSN: 2320- 8163,www.ijtra.com Volume 1, Issue 2 (may-june 2013).
+11.	C.Selvapriya, S.Sathyaprabha, M.Abdulrahim,” LPG leakage monitoring and multilevel alerting system”, published in 2013.
+12.	Falohun A.S., Oke A.O., Abolaji B.M. “Dangerous gas detection using an integrated circuit and MQ-9. In International Journal of Computer Applications. 2016; 135(7).
+13.	Ashish Shrivastava, Ratnesh Prabhaker, Rajeev Kumar, Rahul Verma. GSM based gas leakage detection system. In International Journal of Technical Research and Applications. 2013; 1(2).
